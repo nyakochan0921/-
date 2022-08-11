@@ -1,4 +1,5 @@
 import discord
+from discord.ext import commands
 import asyncio
 import re
 
@@ -49,4 +50,4 @@ async def on_ready():
     game = discord.Game('天鳳')
     await client.change_presence(status=discord.Status.online, activity=game) 
 
-client.run('MTAwNjkxNzUwNDMzNTEwMjA1Ng.GZlibs.YlyFvJl4CRhTD0K_PcOVi7SVdwW3iQeAx6lSjI')
+client.run('MTAwNjkxNzUwNDMzNTEwMjA1Ng.GS7sxK.wYXlIy6_KO56aSPXz-sLq8sto28nPr8C6T8DGo')
